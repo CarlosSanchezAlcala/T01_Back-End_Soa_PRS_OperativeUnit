@@ -13,7 +13,7 @@ public class OperativeUnitMapper {
         return new OperativeUnit(
                 dto.getName(),
                 dto.getId_funcionary(),
-                dto.getPhonenumber(),
+                dto.getPhoneNumber(),
                 dto.getAddress(),
                 dto.getCodubi(),
                 dto.getStatus()
@@ -25,7 +25,7 @@ public class OperativeUnitMapper {
                 id_operativeunit,
                 dto.getName(),
                 dto.getId_funcionary(),
-                dto.getPhonenumber(),
+                dto.getPhoneNumber(),
                 dto.getAddress(),
                 dto.getCodubi(),
                 dto.getStatus()
@@ -37,7 +37,7 @@ public class OperativeUnitMapper {
                 model.getId_operativeunit(),
                 model.getName(),
                 model.getId_funcionary(),
-                model.getPhonenumber(),
+                model.getPhoneNumber(),
                 model.getAddress(),
                 model.getCodubi(),
                 model.getStatus()

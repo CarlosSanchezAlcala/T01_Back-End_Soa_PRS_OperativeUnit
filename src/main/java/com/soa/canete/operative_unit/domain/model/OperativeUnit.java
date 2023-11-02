@@ -17,21 +17,21 @@ public class OperativeUnit {
     private Integer id_operativeunit;
     @Column
     private String name;
-    @Column("id_funcionary")
-    private Integer id_funcionary;
     @Column
-    private String phonenumber;
+    private Integer id_funcionary;
+    @Column("phonenumber")
+    private String phoneNumber;
     @Column
     private String address;
-    @Column("codubi")
+    @Column
     private String codubi;
     @Column
     private String status;
 
-    public OperativeUnit(String name, Integer id_funcionary, String phonenumber, String address, String codubi, String status) {
+    public OperativeUnit(String name, Integer id_funcionary, String phoneNumber, String address, String codubi, String status) {
         this.name = name;
         this.id_funcionary = id_funcionary;
-        this.phonenumber = phonenumber;
+        this.phoneNumber = phoneNumber;
         this.address = address;
         this.codubi = codubi;
         this.status = status;

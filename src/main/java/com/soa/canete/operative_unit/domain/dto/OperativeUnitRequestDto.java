@@ -16,13 +16,13 @@ public class OperativeUnitRequestDto implements Serializable {
 
     @Column
     private String name;
-    @Column("id_funcionary")
-    private Integer id_funcionary;
     @Column
-    private String phonenumber;
+    private Integer id_funcionary;
+    @Column("phonenumber")
+    private String phoneNumber;
     @Column
     private String address;
-    @Column("codubi")
+    @Column
     private String codubi;
     @Column
     private String status;
