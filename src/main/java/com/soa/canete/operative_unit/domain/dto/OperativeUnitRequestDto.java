@@ -23,8 +23,6 @@ public class OperativeUnitRequestDto implements Serializable {
     @Column
     private String address;
     @Column
-    private String codubi;
-    @Column
     private String status;
 
 }

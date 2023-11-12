@@ -26,8 +26,6 @@ public class OperativeUnitResponseDto implements Serializable {
     @Column
     private String address;
     @Column
-    private String codubi;
-    @Column
     private String status;
 
 }

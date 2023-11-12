@@ -24,16 +24,13 @@ public class OperativeUnit {
     @Column
     private String address;
     @Column
-    private String codubi;
-    @Column
     private String status;
 
-    public OperativeUnit(String name, Integer id_funcionary, String phoneNumber, String address, String codubi, String status) {
+    public OperativeUnit(String name, Integer id_funcionary, String phoneNumber, String address, String status) {
         this.name = name;
         this.id_funcionary = id_funcionary;
         this.phoneNumber = phoneNumber;
         this.address = address;
-        this.codubi = codubi;
         this.status = status;
     }
 

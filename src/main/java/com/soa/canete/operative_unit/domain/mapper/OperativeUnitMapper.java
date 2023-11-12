@@ -15,7 +15,6 @@ public class OperativeUnitMapper {
                 dto.getId_funcionary(),
                 dto.getPhoneNumber(),
                 dto.getAddress(),
-                dto.getCodubi(),
                 dto.getStatus()
         );
     }
@@ -27,7 +26,6 @@ public class OperativeUnitMapper {
                 dto.getId_funcionary(),
                 dto.getPhoneNumber(),
                 dto.getAddress(),
-                dto.getCodubi(),
                 dto.getStatus()
         );
     }
@@ -39,7 +37,6 @@ public class OperativeUnitMapper {
                 model.getId_funcionary(),
                 model.getPhoneNumber(),
                 model.getAddress(),
-                model.getCodubi(),
                 model.getStatus()
         );
     }
