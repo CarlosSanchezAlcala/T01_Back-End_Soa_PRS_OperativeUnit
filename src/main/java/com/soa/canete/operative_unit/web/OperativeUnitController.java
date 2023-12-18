@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/api/operativeUnit")
 @RequiredArgsConstructor
 public class OperativeUnitController {
